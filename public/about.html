@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+
+    <!-- --------Js Library Slider Animations -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+   <!-- ------------------Google Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title> Junaid | About</title>
+</head>
+<body class="font-Rubik ">
+    <!-- -----Header  -->
+    <header class="fixed w-full  z-20">
+        <div class="header_container">
+            <div class="header_info_container">
+                <div class="mail_info flex  justify-between px-3 py-px bg-primary-100" >
+                    <div class="info_1">
+                        <ul class="flex flex-row py-1">
+                            <li class="mr-2" >
+                                <a href="#">
+                                    <i  class="fas fa-envelope text-sm text-primary-200 "></i>
+                                </a>
+                                <a href="business.com.ng" >
+                                    <span class="hidden lg:inline-block text-sm text-primary-200">business@junaidgroup.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-whatsapp text-sm text-primary-200 "></i>
+                                </a>
+                                <a href="tel:08063781612">
+                                    <span  class="hidden lg:inline-block text-sm text-primary-200 ">+234 809 992 3408</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info_2">
+                        <ul class="flex flex-row py-1">
+                            <li class="px-0">
+                                <a href="#" class=" p-1 rounded-full hover:bg-white transition-all duration-75 ease-out">
+                                    <i class="text-primary-200 text-sm hover:text-primary-100 fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="px-0">
+                                <a href="#" class=" p-1 rounded-full hover:bg-white transition-all duration-75 ease-out">
+                                    <i class="text-primary-200 text-sm hover:text-primary-100 fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="px-0">
+                                <a href="#" class=" p-1 rounded-full hover:bg-white transition-all duration-75 ease-out">
+                                    <i class="text-primary-200 text-sm hover:text-primary-100 fab fa-facebook"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav_container bg-white shadow-lg flex-col lg:flex-row px-5 py-6 lg:py-3 absolute w-full ">
+                <div class="nav_logo flex justify-between "  >
+                    <a href="home.html " class=" w-20 md:w-24 overflow-hidden lg:z-10" >
+                        <h1> <img src="./img/junaid XL.png" alt=""></h1>
+                    </a>
+                    
+                    <div class="harmbuger cursor-pointer absolute  right-10 top-12 lg:hidden ">
+                        <div class="line1  translate-x-0 translate-y-0 transform transition-transform  duration-1000 ease-in-out w-5 mb-1 h-0.5 block bg-gray-800 " ></div>
+                        <div class="line2  translate-x-0 translate-y-0 transform transition-transform  duration-1000 ease-in-out w-5 mb-1 h-0.5 block bg-gray-800 " ></div>
+                        <div class="line3  translate-x-0 translate-y-0 transform transition-transform  duration-1000 ease-in-out w-5 mb-1 h-0.5 block bg-gray-800 " ></div>
+                    </div>
+                </div>
+               
+                <ul class="  menu transform -translate-y-96 transition-transform absolute  w-full h-auto top-20 left-0 py-2 px-6 lg:relative lg:-top-10 lg:left-0 lg:h-1 lg:flex lg:flex-row lg:justify-end  lg:translate-y-0  bg-white" >
+                    <li class="list mb-3 pr-6"><a class="text-primary-200 lg:inline-block " href="home.html">Home</a></li>
+                    <li class="list mb-3 pr-6"><a class="text-primary-200 lg:inline-block " href="#">About Us</a></li>
+                    <li class="list mb-3 pr-6"><a class="text-primary-200 lg:inline-block " href="junaidpower.html">Junaid Power</a></li>
+                    <li class="list mb-3 pr-6"><a class="text-primary-200 lg:inline-block " href="junaidagro.html">Junaid Agro</a></li>
+                    <li class="list mb-3 pr-6"><a class="text-primary-200 lg:inline-block " href="contact.html">Contact US</a></li>
+                    <li>
+                        <a href="landingpage.html">
+                            <button class="nav_btn w-full text-center py-2 px-24 lg:px-10 lg:-mt-3 bg-primary-200 text-white border-2 rounded border-primary-200 hover:bg-transparent hover:text-primary-200 hover:border-primary-100 hover:transition-all">
+                                Enquiry
+                            </button>
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- ----- Agro Solutions Section -->
+    <section class="global bg-about-frite-section bg-cover">
+        <div class=" relative z-10 px-5 pt-32 pb-7 lg:px-12 xl:px-28 xl:pt-56">
+            <div class="solution_intro  md:w-2/3 lg:w-1/2 xl:w-3/5 ">
+                <h2 class="text-primary-100 text-xl font-bold pb-2  xl:text-2xl  ">WHO WE ARE</h2>
+                <div class="intro_content w-3/6 xl:w-2/5  pr-20 ">
+                    <h2 class="text-white font-bold text-lg  xl:text-2xl leading-5">ENERGY AGRICULTURE</h2>
+                </div>
+            </div>
+            <div class="md:w-1/3 lg:w-1/2 xl:w-2/5 ">
+
+            </div>
+
+        </div>
+        <div class="background absolute top-0 bottom-0 
+        left-0 w-full md:w-3/4 lg:w-4/6 h-full bg-primary-300 z-0 transform -skew-x-12 origin-top-right  opacity-50"></div>
+    </section>
+    
+   <!-- ---------Junaid- introduction section -->
+   <section class="global">
+    <div class=" px-0 py-0 ">
+
+        <div class="history flex flex-col lg:flex-row bg-primary-200  ">
+            <div class="  bg-primary-100 py-7 xl:pt-20 w-full lg:w-1/2">
+               <h2 class="text-xl text-primary-200 px-5 pb-7 lg:px-12 xl:px-28  xl:text-2xl font-bold">ABOUT US <span class="inline-block"><img class="w-5 h-5" src="./img/Image 11.png" alt=""></span></h2>
+                <h3 class="text-black bg-white py-1 px-5 lg:text-xl lg:px-12 xl:px-28">Company Background & History</h3>
+                <p class="px-5 pt-3 text-white  lg:px-12 xl:px-28 xl:text-lg lg:leading-6">Junaid is an Integrated Services Company with specialization in two major sectors; Energy and Agriculture.
+                    Its Head Office is located in the economic nerve of the Country, Lagos, Nigeria. Our company operates a dynamic
+                    business structure manned and managed by a team of qualified and seasoned professionals who bring into the company,
+                    several years of project experience in their respective fields of specialization. For us, the conviction of positive
+                    symbiotic combination of expertise has brought this team of professionals together with a view to forming a formidable
+                    technically and professionally competent Nigerian organization.</p>
+            </div>
+            <div class="w-full lg:w-1/2 py-7 px-5 lg:pr-12 lg:pt-20  xl:pt-32 lg:pb-10 xl:pr-28  text-white xl:text-lg">
+                <p>Prior to incorporation of JUNAID Synergy Limited, and since 2000, working through our other companies; JUNAID Integrated
+                    Services Limited, Silikon Ink Limited, NIMAN GROUP, we have continued to strive towards establishing a mark in our business
+                    endeavors to ensure that we live up to our corporate objective and exceptional standard.</p>
+                <p> Like other knowledge-age companies, JUNAID boasts of Project Management, Resource Sourcing, Public Works, Consulting,
+                    Resource Management, amidst others. </p>
+                <p>Our ambition and goal, is “To strive tenaciously towards building a sustainable 
+                    environment, with the ability to create cutting-edge solutions that would invariably result to productivity through our
+                    exceptional and quality service”.
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- Agro Reliable Mission -->
+    <section class=" global bg-about-mision-section  bg-cover">
+        <div class="relative z-10 section-descendant ">
+            <div class="solution_intro  md:w-2/3 lg:w-1/2 xl:w-3/5  " >
+                <h2 class="text-xl pb-3 text-primary-100 font-bold xl:text-2xl ">OUR MISION <span class="inline-block"><img class="w-5 h-5" src="./img/Image 9.png" alt=""></span></h2>
+                <div class="intro">
+                    <p class="pb-3 xl:pr-60 xl:text-lg text-primary-200">To create value using African resources in delivering world 
+                        class products and services.</p>
+                    <h2 class="pb-3 text-primary-100 font-bold xl:text-2xl">MOTTO</h2>
+                    <p class="pb-3 text-primary-200 xl:text-lg">Be Empowered</p>
+
+                </div>
+
+            </div>
+            <div class="md:w-1/3 lg:w-1/2 xl:w-2/5 ">
+
+            </div>
+        </div>
+        <div class="background absolute top-0 bottom-0 
+        left-0 w-full md:w-3/4 lg:w-4/6 h-full bg-primary-500 z-0 transform -skew-x-12 origin-top-right  "></div>
+    </section>
+
+    <!-- Agro Reliable power -->
+    <section class=" global bg-agro-power-section overflow-x-hidden" >
+        <div class=" section-descendant flex-row-reverse z-10 relative">
+            <div class="  md:w-2/3 lg:w-1/2 xl:w-3/5 text-right " data-aos="fade-up">
+                <h2 class="text-xl pb-3 text-white font-bold xl:text-2xl">OUR POLICY</h2>
+                <div class="intro">
+                    <p class="pb-3 text-primary-100 pl-14 xl:text-lg xl:pl-32">JUNAID® conducts its business lawfully and ethically in a socially and environmentally responsible manner.
+                        Our policy is to work to provide a safe and accident free workplace which do not pose any risk or threat to 
+                        the health, safety and welfare of our employees, members of associated companies and the general public, and
+                        we integrate the Health, Safety and Environmental (HSE) Policies  into the management of its office and field
+                        operations.</p>
+                </div>
+            </div>
+            <div class="md:w-1/3 lg:w-1/2 xl:w-2/5  ">
+
+            </div>
+
+
+        </div>
+        <div class="background absolute top-0 bottom-0 
+        right-0 w-full md:w-3/4 lg:w-4/6 h-full bg-primary-200 z-0 transform skew-x-12 origin-top-right opacity-90  "></div>
+    </section>
+
+    <!-- ---------Junaid- Value section -->
+    <section class="global " >
+        <div class="junaid_value " >
+            <div class="value flex flex-col-reverse lg:flex-row  bg-primary-100 ">
+                <div class="bg-primary-100 lg:w-1/2 text-center px-5 py-7 lg:px-12 xl:px-28 lg:pt-28  " data-aos="fade-up">
+                    <h2 class="border-t pt-7 pb-2 text-white font-bold xl:text-2xl  border-white">OUR CORE VALUES</h2>
+                    <p class=" border-b text-primary-200 px-4 pb-7 xl:text-lg  border-white">Our goal is that what we accomplish lives up to the tenets of our core values.</p>
+                </div>
+                <div class="px-5 py-5 lg:w-1/2  lg:px-12 xl:px-28 text-center bg-primary-200" data-aos="fade-up">
+                    <h3 class="text-xl text-primary-100 pt-4 font-bold xl:text-2xl">WHAT WE STAND FOR</h3>
+                    <p class="text-white pt-2 pb-5 xl:text-lg ">These are our Ideals that sews together the fabric of our Organizational Culture.
+                        It communicates what we stand for as a people, as an Organization, and let’s others
+                        know the essence of who we are and what we are about. We created an Acronym for our 
+                    core values as S.T.O.G.S.</p>
+
+                    <div class="value_accordion ">
+                            <div class="accordion py-5">
+                            <div class="accordion_item text-left max-h-7 overflow-hidden mb-2 transition-all border-none outline-none boder-b border-primary-500 ">
+                                <h3 class=" flex flex-col lg:flex lg:flex-row  justify-between  cursor-pointer">
+                                <span class="text-primary-100 text-base xl:text-lg " >S - Sustainability</span>
+                                <i class="fas fa-chevron-down  text-primary-100 transform -translate-x-1/2 rotate-0 transition-transform duration-500 ease-out"></i>
+                                </h3>
+                                <p class="paragraph text-white">
+                                Resolve to remain persistent, determined and resilient amidst obstacles and challenges, which is intrinsic to who we are.
+                                </p>
+                            </div>
+                            <div class="accordion_item text-left max-h-7 overflow-hidden mb-2 transition-all border-none outline-none boder-b border-primary-500 ">
+                                <h3 class=" flex flex-row justify-between   cursor-pointer">
+                                <span  class="text-primary-100 text-base xl:text-lg">  T – Tenacity</span>
+                                <i class="fas fa-chevron-down  text-primary-100 transform -translate-x-1/2 rotate-0 mb-2 transition-transform duration-500 ease-out"></i>
+                                </h3>
+                                <p class="paragraph text-white ">
+                                Resolve to remain persistent, determined and resilient amidst obstacles and challenges, which is intrinsic to who we are.
+                                </p>
+                            </div>
+                            <div class="accordion_item text-left max-h-7 overflow-hidden mb-2 transition-all border-none outline-none boder-b border-primary-500 ">
+                                <h3 class="flex flex-row justify-between  cursor-pointer">
+                                <span class="text-primary-100 text-base xl:text-lg">O - Open-Mindedness</span>
+                                <i class="fas fa-chevron-down  text-primary-100 transform -translate-x-1/2 rotate-0 transition-transform duration-500 ease-out"></i>
+                                </h3>
+                                <p class="paragraph text-white ">
+                                    Resolve to remain persistent, determined and resilient amidst obstacles and challenges, which is intrinsic to who we are.
+                                </p>
+                            </div>
+                            <div class="accordion_item text-left max-h-7 overflow-hidden mb-2 transition-all border-none outline-none boder-b border-primary-500 ">
+                                <h3 class=" flex flex-row justify-between  cursor-pointer">
+                                <span  class="text-primary-100 text-base xl:text-lg">G – Growth</span>
+                                <i class="fas fa-chevron-down  text-primary-100 transform -translate-x-1/2 rotate-0 transition-transform duration-500 ease-out"></i>
+                                </h3>
+                                <p class="paragraph text-white ">
+                                    Resolve to remain persistent, determined and resilient amidst obstacles and challenges, which is intrinsic to who we are.
+                            </p>
+                            </div>
+                             <div class="accordion_item text-left max-h-7 overflow-hidden mb-2 transition-all border-none outline-none boder-b border-primary-500 ">
+                                <h3 class=" flex flex-row justify-between  cursor-pointer">
+                                <span  class="text-primary-100 text-base xl:text-lg">S- Service</span>
+                                <i class="fas fa-chevron-down  text-primary-100 transform -translate-x-1/2 rotate-0 transition-transform duration-500 ease-out"></i>
+                                </h3>
+                                <p class="paragraph text-white ">
+                                    Resolve to remain persistent, determined and resilient amidst obstacles and challenges, which is intrinsic to who we are.
+                                </p>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+            
+            </div>
+        </div>
+
+    </section>
+    
+
+    <!-- ---------Junaid Consultant section -->
+    <section class="global">
+        <div class="junaid_consultant bg-primary-200 text-center px-5  py-7 lg:px-12 xl:px-28 xl:pt-16" data-aos="fade-up">
+            <h2 class="text-xl text-primary-100 pb-3 font-bold lg:text-2xl">Operational Evaluation & Consultation</h2>
+            <div class="consultant_content">
+                <p class="text-white xl:text-lg ">In our desire to ensure up-to-date improvement, the evaluation of performance, 
+                site/field work reports and other relatable information are reviewed through our
+                management personnel. In a bid for a continuous cordial and productive working relationship,
+                we seek reliable consultation with our employees, clients, Partners, contractors, officers in
+                the Agriculture, Power and Gas sectors and other relevant organizations.</p>
+            </div>
+        </div>
+    </section> 
+
+        <!-- Agro Reliable Intro -->
+    <section class=" global bg-about-fried-section  bg-cover">
+        <div class="relative z-10 section-descendant ">
+            <div class="solution_intro  md:w-2/3 lg:w-1/2 xl:w-3/5  " >
+                <h2 class="text-xl pb-3 text-primary-100 text-medium font-bold xl:text-2xl ">JUNAID® POWER <span class="inline-block"><img class="w-5 h-5" src="./img/Image 10.png" alt=""></span></h2>
+                <div class="intro">
+                    <p class="pb-3 pr-20 text-primary-200 xl:text-lg ">Is an all-round power solutions one stop shop, with deep experience 
+                        and expertise in: Power Back-Up and Power Generation. It's solution are designed
+                        for commercial, industrial, Public and individuals in Nigeria.</p>
+
+                    <a href="junaidagro.html">
+                        <button class=" py-3 px-10 bg-primary-100 text-white rounded hover:transition hover:ease-in  hover:bg-primary-200 "> 
+                            Read More
+                        </button>
+                    </a>
+                </div>
+
+            </div>
+            <div class="md:w-1/3 lg:w-1/2 xl:w-2/5 ">
+
+            </div>
+        </div>
+        <div class="background absolute top-0 bottom-0 
+        left-0 w-full md:w-3/4 lg:w-4/6 h-full bg-primary-500 z-0 transform -skew-x-12 origin-top-right  "></div>
+    </section>
+
+
+    <!-- Agro Reliable power -->
+    <section class=" global bg-about-agro-section overflow-x-hidden" >
+        <div class=" section-descendant flex-row-reverse z-10 relative">
+            <div class="  md:w-2/3 lg:w-1/2 xl:w-3/5 text-right " data-aos="fade-up">
+                <h2 class="text-xl pb-3 text-primary-100 font-bold xl:text-2xl">JUNAID® AGRO</h2>
+                <div class="intro">
+                    <p class="pb-3 pl-20 text-primary-200 xl:text-lg">JUNAID Frites (Frozen French Fries) is the flagship product of Junaid agro 
+                        Product (JAP) Limited; mid-stream operator in Nigeria’s
+                          Agricultural Sector.</p>
+                    
+                    <a href="junaidagro.html">
+                        <button class=" py-3 px-10 bg-primary-100 text-white rounded hover:transition hover:ease-in  hover:bg-primary-200 "> 
+                            Read More
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/3 lg:w-1/2 xl:w-2/5  ">
+
+            </div>
+
+
+        </div>
+        <div class="background absolute top-0 bottom-0 
+        right-0 w-full md:w-3/4 lg:w-4/6 h-full bg-primary-500 z-0 transform skew-x-12 origin-top-right "></div>
+    </section>
+
+    <!-- ---------Client Partner section -->
+    <section class="global ">
+        <div class="agro_partner text-center px-5 py-10 lg:px-12 xl:px-28 " data-aos="fade-up">
+            <div class="partner  " >
+                <h3 class="pb-5 text-lg font-bold xl:text-2xl text-primary-100">We are <span class="text-primary-200">humble</span>and
+                  <span class="text-primary-200">proud</span >  to work with these <span class="text-primary-200">amazing clients</span>. </h3>
+
+                <div class="max-w-full">
+                    <div class=" py-2 flex  flex-col  justify-center  ">
+                        <div class="flex flex-row justify-center flex-wrap ">
+                            <div class="partner-style ">
+                               <img src="./img/logo (2).png" alt="">
+                            </div >
+                            <div class="partner-style">
+                                <img src="./img/BelemaOil-Logo-world-class.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                               <img src="./img/download.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/rahman.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                               <img src="./img/NBET1-scaled.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                               <img src="./img/Sterling new logo2.png" alt="">
+                            </div>
+                        </div>
+                        <div class=" flex flex-row justify-center flex-wrap">
+                            <div class="partner-style">
+                                <img src="./img/logo (1).png" alt="">
+                            </div>
+                            <div class="partner-style">
+                            <img src="./img/WhatsApp Image 2020-06-25 at 22.37.59.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/FirstBank-Master-logos-124-295-SPOT-06-1.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/131-1312322_skye-bank-logo-png.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/Eterna-oil-Logo.jpg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    </section>
+        
+    <!-- ----------------Agro Testimoial Section -->
+    <section class="global">
+        <div class="agro_testimonial px-0 py-7 bg-primary-200  text-center">
+            <div class="testimoial">
+                <div class="speech px-5 py-3 font-semibold lg:px-12 xl:py-5 xl:px-28 bg-white shadow-md" data-aos="fade-up">
+                    <h3>Has powered over 2000 homes, 600 ATMs across several 
+                        financial institutions, 150 bank branches and over 300 businesses to 
+                        date with a combined capacity of over 26MW.</h3>
+                    </div>
+
+                <!--Slider-->
+                <div class="testimonial-slider swiper-container my-5 lg:px-12 xl:px-28">
+                    <div class="slider-carousel swiper-wrapper ">
+                        <div class=" flex justify-center items-center flex-col text-white px-5 swiper-slide ">
+                            <p class="pt-2 pb-5 xl:px-36">Junaid Synergy Limited is a company that provides quality services in terms of filtered power energy solution.
+                                They have dedicated, knowledgeable and trusted staff that work with high level professionalism and update their
+                                clients of new innovations. To crown it all, they provide quality service at a very competitive rate. Over the
+                                past ten years Junaid Synergy Limited has successfully carried out over 300 locations of Supply & Installation
+                                of clean energy power solutions which include hybrid and off-grid solar power solutions for my company’s ATM 
+                                galleries and branches across several states in the nation. I would highly recommend Junaid Synergy Limited for
+                               any energy solution job!</p>
+                            <div class= " flex justify-center items-center flex-col">
+                                <img  src="./img/Engr Olalere.png" class="w-20 mb-2" alt="">
+                                <h4 class="font-bold">Engr. Lateef Olalere <span class="block font-light">(For: Sterling Bank)</span> </h4> 
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center flex-col text-white px-5   swiper-slide">
+                            <p class="pt-2 pb-5 xl:px-36">I recall about 10 years ago, i had this neighbor who just installed a 1.5kva inverter system and i made inquiries on its
+                            performance and glowing remarks followed whilst i also observed its performance. Why i chose to observe was that friends
+                            who had such systems complained bitterly on performance and how it was a waste of resources. Fast forward to 2012, i decided
+                            to follow suit and had an inverter system installed to reduce the long run cost of running a Petrol generator and Junaid 
+                            Synergy Limited through their Power Solutions installed a 3.5kva power sine wave inverter system. This is 8 years down the line,
+                            there has been no a problem or hassles and i have made several more referrals.</p>
+                            <div class= " flex justify-center items-center flex-col">
+                                <h4 class="font-bold">Engr. Lateef Olalere <span class="block font-light">(For: Sterling Bank)</span> </h4> 
+                            </div>
+
+                    </div>
+                    <div class="flex justify-center items-center flex-col text-white px-5  swiper-slide ">
+                            <p class="pt-2 pb-5 xl:px-36">I can actually say without any shred of doubt that Junaid Synergy Limited is the best Energy Solutions Company out there because
+                            of their customer service, product authenticity, affordable prices and reliability. I have used an inverter i bought from them for
+                            6 years without changing the batteries! How do you top that in today’s world? Also because of their good track record, i can always
+                            recommend them to friends, family and acquaintances without any hesitation because i know they will deliver timely and render their
+                            effective services. Thank you!</p>
+                            <div class= " flex justify-center items-center flex-col leading-8">
+                                <h4 class="font-bold">Engr. Lateef Olalere <span class="block font-light">(For: Sterling Bank)</span> </h4> 
+                            </div>
+                    </div>
+                    </div>
+            
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- ---------Agro Partner section -->
+    <section class="global ">
+        <div class="agro_partner text-center px-5 py-10 lg:px-12 xl:px-28 " data-aos="fade-up">
+            <div class="partner flex  flex-col  justify-center " >
+                <h2 class="pb-7 text-xl text-primary-100 font-bold xl:text-2xl ">OUR PARTNER</h2>
+                <div class="partner_container max-w-full  swiper-container">
+                    <div class="swiper-wrapper partner_slider ">
+                        <div class="partner_1 flex flex-row justify-center flex-wrap swiper-slide">
+                            <div class="partner-style w-16 ">
+                            <img src="./img/Image 2.png" alt="">
+                            </div >
+                            <div class="partner-style">
+                                <img src="./img/Axxe.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                            <img src="./img/Shell_nigeria.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                            <img src="./img/download.png" alt="">
+                            </div>
+                        </div>
+                        <div class="partner_2 flex flex-row justify-center flex-wrap swiper-slide">
+                            <div class="partner-style">
+                                <img src="./img/Image 1.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/Image 4.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/Image8.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/MWM_Logo_CMYK-min.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="partner_3 swiper-slide flex flex-row justify-center flex-wrap">
+                            <div class="partner-style">
+                                <img src="./img/Image 7.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/Logo_INNIO_Jenbacher_1903.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/monbat.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/1280px-Wärtsilä_logo.svg.png" alt="">
+                            </div>
+                        </div>
+                        <div class="partner_3 swiper-slide flex flex-row justify-center flex-wrap">
+                            <div class="partner-style">
+                                <img src="./img/GE_Jenbacher_Gas_Engines-min.jpg" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/Greenvile-footer-min.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/indexw-min.png" alt="">
+                            </div>
+                            <div class="partner-style">
+                                <img src="./img/index-min.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination" style="display: none;"></div>
+                </div>
+        </div>
+    </div>
+
+    </section>
+
+    <!-- ---------Agro Contact section -->
+    <section class="global" >
+    <div class=" px-0 py-7 bg-primary-200" data-aos="fade-up">
+        <div class="contact px-5 pb-5 text-center lg:px-12 xl:px-28">
+            <h3 class="font-medium xl:text-lg text-white">Get in touch with our <span class=" text-primary-100 ">experienced</span> 
+                personnel to guide you through <span class="text-primary-100 "> our services</span></h3>
+            <a href="contact.html">
+                <button class="py-3 px-10 mt-3 shadow-md text-black bg-primary-500  rounded ">Contact Us</button>
+            </a>
+
+        </div>
+    </div>
+    </section>
+
+
+    <!-- ---------Agro Contactb section -->
+    <footer class="global ">
+        <div class="footer_container " data-aos="fade-up">
+            <div class="footer flex flex-col lg:flex-row lg:justify-between px-5 py-7 lg:px-12 xl:px-28">
+                <div class="footer_part1 part1 mb-5 ">
+                    <a href="home.html" class=" block w-20 md:w-24 overflow-hidden">
+                        <img src="./img/junaid XL.png" alt="">
+                    </a>
+
+                </div>
+                <div class="pb-3">
+                    <h4 class="text-xl text-gray-600 pb-2">Menu</h4>
+                    <ul class="text-primary-200 font-medium ">
+                        <li class="pb-1"><a href="about.html">About Us</a></li>
+                        <li class="pb-1"><a href="junaidpower.html">Junaid Power</a></li>
+                        <li class="pb-1"> <a href="junaidagro.html">Junaid Agro</a></li>
+                        <li class="pb-1"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="pb-3">
+                    <h4 class="text-xl text-gray-600 pb-2">Our Services</h4>
+                    <ul class="text-primary-200 font-medium ">
+                        <li class="pb-1"><a href="junaidpower.html">Junaid Power</a></li>
+                        <li class="pb-1"><a href="junaidagro.html">Junaid Agro</a></li>
+                    </ul>
+                </div>
+                <div class="pb-3">
+                    <h4 class="text-xl text-gray-600 pb-2">Connect With Us</h4>
+                    <ul class="text-primary-200 font-medium ">
+                        <li class="pb-1">Working Hours 9:00am - 5:00pm </li>
+                        <li class="pb-1">Monday - Friday</li>
+                    </ul>
+                    <ul class="text-primary-200 font-medium ">
+                        <li class="pb-1">Customer Service Line</li>
+                        <li>+234 809 992 3408</li>
+                    </ul>
+                    <ul class="text-primary-200 font-medium ">
+                        <li class="pb-1">We are Social</li>
+                        <ul class="flex flex-row ">
+                            <li class="pr-2.5"><a href="#"><i class="fab fa-twitter"></i></a> </li>
+                            <li class="pr-2.5"><a href="#"><i class="fab fa-linkedin"></i></a> </li>
+                            <li class="pr-2.5"><a href="#"><i class="fab fa-facebook"></i></a> </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="lg:text-center bg-primary-200 text-white pl-5 py-2 lg:py-4">
+                <p>JUNAID® 2020 | Designed and Developed by <a href="duromedia.com.ng">Duromedia</a></p>
+            </div>
+        </div>
+        <div class="scroll-btn fixed bottom-0 transform translate-x-24  right-6  w-12 h-12 rounded-expand shadow-xl  bg-primary-200 z-10 text-white">
+            <i class="fa fa-chevron-up text-white text-2xl absolute top-4 animate-bounce right-nittwo  p-0 cursor-pointer" aria-hidden="true"></i>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

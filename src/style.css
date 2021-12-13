@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.heading{
+    text-shadow: 6px 6px 0px rgb(17, 57, 89);
+}
+
+
+.list::before{
+    position: absolute;
+    content: " ";
+    width: 0.2%;
+    height: 5%;
+    top: 10px;
+    background-color: rgb(12, 94, 159) ;
+    transition: all 1s ease-out;
+}
+.list:hover::before{
+    width: 6%;
+    transition: all 1s ease-out;
+}
+
+.global{
+    @apply  bg-no-repeat bg-clip-border bg-center   relative top-32;
+}
+.section-descendant{
+    @apply  flex px-5 py-7 lg:px-12 xl:px-28 xl:pt-16;
+}
+input::placeholder{
+    @apply text-gray-500 opacity-60;
+
+}
+
+.active{
+    @apply  max-h-52 transition-all;
+}
+.menu-active{
+    @apply transform translate-y-0 transition-transform;
+}
+.partner-style{
+    @apply overflow-hidden w-20 h-20 lg:w-24 lg:h-24  flex justify-center items-center hover:shadow-lg  mr-4 lg:mr-10;
+}
+
+.toggle .line1{
+    @apply  rotate-45  translate-x-0 translate-y-0 transform transition-transform duration-1000 ease-in-out;
+}
+.toggle .line2{
+    @apply  opacity-0;
+}
+.toggle .line3{
+    @apply  -rotate-45 translate-x-0 -translate-y-3 transform transition-transform duration-1000 ease-in-out;
+}
